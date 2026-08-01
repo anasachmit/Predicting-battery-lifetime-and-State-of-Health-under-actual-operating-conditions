@@ -1,0 +1,16 @@
+# --- runtime artifacts (regenerated on every run - never commit) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+model_state/
+output*/
+.val_out*/
+.eval_out_*/
+validation_report.txt
+
+# real measurement data never belongs in this repo
+/data/
+/dataset/
+/*102Ah_*/
+*.rar
