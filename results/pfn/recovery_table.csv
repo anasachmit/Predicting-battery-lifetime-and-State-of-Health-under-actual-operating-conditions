@@ -1,0 +1,9 @@
+parametre,echelle,n,erreur_mediane,biais_median,correlation,verdict,attendu
+b (moyenne geometrique),log,250,x1.01,x0.99,1.0,recupere,recupere
+Ea apparente de b(T),lin,250,0.22 kJ/mol,-0.14 kJ/mol,0.999,recupere,recupere
+SOH_k,lin,250,0.16 pts,+0.16 pts,0.873,recupere,partiel
+g (pente initiale du knee),log,250,x1.05,x1.00,0.991,recupere,recupere
+tau_frac (seul),log,250,x1.09,x1.01,0.672,partiel,NON identifiable
+c = g * tau (combine),log,250,x1.17,x0.99,0.623,partiel,partiel
+n_k (cycle du knee),log,250,x1.01,x1.01,0.988,recupere,recupere
+perte du knee a 1.5 n_k,log,250,x1.03,x1.00,0.976,recupere,recupere

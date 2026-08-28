@@ -1,0 +1,41 @@
+parametres : 3,295,751 | pas vises : 4,687 | batch 64 | n_ctx 32 | 16 threads
+pas    200 |   12,800 labos | perte 0.0884 | valid 0.0419 | ecart calib train 0.0498 valid 0.0654 (derive +0.0156) | 33 lab/s
+pas    400 |   25,600 labos | perte 0.0452 | valid 0.0306 | ecart calib train 0.0987 valid 0.1001 (derive +0.0014) | 35 lab/s
+pas    600 |   38,400 labos | perte 0.0307 | valid 0.0284 | ecart calib train 0.1051 valid 0.1192 (derive +0.0141) | 36 lab/s
+pas    800 |   51,200 labos | perte 0.0292 | valid 0.0273 | ecart calib train 0.0406 valid 0.0389 (derive -0.0017) | 36 lab/s
+pas   1000 |   64,000 labos | perte 0.0285 | valid 0.0272 | ecart calib train 0.1297 valid 0.1203 (derive -0.0094) | 36 lab/s
+pas   1200 |   76,800 labos | perte 0.0271 | valid 0.0277 | ecart calib train 0.0820 valid 0.0793 (derive -0.0027) | 36 lab/s
+pas   1400 |   89,600 labos | perte 0.0259 | valid 0.0258 | ecart calib train 0.0596 valid 0.0634 (derive +0.0038) | 36 lab/s
+  [F.3 @ 100,000 labos] arrhenius 20.36 % | charniere 21.17 % | seuil 15.05 % | atteint : False
+pas   1600 |  102,400 labos | perte 0.0255 | valid 0.0226 | ecart calib train 0.0675 valid 0.0817 (derive +0.0142) | 36 lab/s
+pas   1800 |  115,200 labos | perte 0.0261 | valid 0.0248 | ecart calib train 0.0470 valid 0.0571 (derive +0.0101) | 36 lab/s
+pas   2000 |  128,000 labos | perte 0.0256 | valid 0.0243 | ecart calib train 0.0206 valid 0.0087 (derive -0.0119) | 36 lab/s
+pas   2200 |  140,800 labos | perte 0.0246 | valid 0.0232 | ecart calib train 0.0236 valid 0.0372 (derive +0.0136) | 36 lab/s
+pas   2400 |  153,600 labos | perte 0.0239 | valid 0.0246 | ecart calib train 0.0317 valid 0.0112 (derive -0.0205) | 37 lab/s
+pas   2600 |  166,400 labos | perte 0.0238 | valid 0.0231 | ecart calib train 0.0165 valid 0.0164 (derive -0.0001) | 37 lab/s
+pas   2800 |  179,200 labos | perte 0.0237 | valid 0.0253 | ecart calib train 0.0682 valid 0.0711 (derive +0.0029) | 37 lab/s
+pas   3000 |  192,000 labos | perte 0.0235 | valid 0.0234 | ecart calib train 0.0524 valid 0.0603 (derive +0.0079) | 37 lab/s
+pas   3200 |  204,800 labos | perte 0.0233 | valid 0.0243 | ecart calib train 0.0521 valid 0.0744 (derive +0.0223) | 37 lab/s
+pas   3400 |  217,600 labos | perte 0.0228 | valid 0.0239 | ecart calib train 0.0481 valid 0.0165 (derive -0.0316) | 37 lab/s
+pas   3600 |  230,400 labos | perte 0.0227 | valid 0.0211 | ecart calib train 0.0210 valid 0.0264 (derive +0.0054) | 37 lab/s
+pas   3800 |  243,200 labos | perte 0.0225 | valid 0.0232 | ecart calib train 0.1066 valid 0.0835 (derive -0.0231) | 37 lab/s
+  [F.3 @ 250,000 labos] arrhenius 16.77 % | charniere 16.99 % | seuil 15.05 % | atteint : False
+pas   4000 |  256,000 labos | perte 0.0225 | valid 0.0216 | ecart calib train 0.0271 valid 0.0139 (derive -0.0132) | 37 lab/s
+pas   4200 |  268,800 labos | perte 0.0223 | valid 0.0225 | ecart calib train 0.0064 valid 0.0141 (derive +0.0077) | 37 lab/s
+pas   4400 |  281,600 labos | perte 0.0225 | valid 0.0233 | ecart calib train 0.0216 valid 0.0376 (derive +0.0160) | 37 lab/s
+pas   4600 |  294,400 labos | perte 0.0224 | valid 0.0204 | ecart calib train 0.0219 valid 0.0158 (derive -0.0061) | 37 lab/s
+
+=== F.3 FINAL ===
+  n                        350
+  ape_globale              22.88
+  ape_arrhenius            22.56
+  ape_charniere            22.42
+  ecart                    -0.14
+  rmse_zone_notee          1.34
+  seuil_F3                 15.05
+  borne_charniere          15.81
+  gain_vs_borne            -6.61
+  part_ecart_recuperee     -2.899
+  F3_atteint               False
+
+checkpoint : C:\Users\anasa\Desktop\batterylife_health\results\pfn\entrainement\checkpoint.pt

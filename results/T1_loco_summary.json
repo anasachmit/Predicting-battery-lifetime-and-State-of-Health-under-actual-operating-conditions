@@ -1,0 +1,26 @@
+{
+ "n_folds": 6,
+ "n_folds_eol_observe": 4,
+ "rmse_pire_ancrage_median": 4.843068168533887,
+ "rmse_pire_baseline_median": 4.363700696087729,
+ "rel_pire_median": 0.9998191435016202,
+ "rel_pire_max": 3.2254061822063296,
+ "ecart_entre_grilles_max": 1.0441039471114433,
+ "eol_ape_ancrage_par_cellule": {
+  "102Ah_25degC_1C_cell3": 11.26,
+  "102Ah_35degC_1C_cell1": 28.07,
+  "102Ah_45degC_0p5C_cell3": 7.78,
+  "102Ah_55degC_1C_cell3": 64.71
+ },
+ "eol_ape_baseline_par_cellule": {
+  "102Ah_25degC_1C_cell3": 124.93,
+  "102Ah_35degC_1C_cell1": 9.87,
+  "102Ah_45degC_0p5C_cell3": 7.03,
+  "102Ah_55degC_1C_cell3": 115.87
+ },
+ "violation_monotonie_max": 0.0,
+ "dispersion_soh_k": 1.0220057531979592,
+ "dispersion_c": 7.238254036676266,
+ "dispersion_beta": 7.006173832993724,
+ "dispersion_w1": 3.5845826969804975
+}
