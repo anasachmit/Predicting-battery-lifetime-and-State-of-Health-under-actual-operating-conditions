@@ -1,0 +1,8 @@
+metrique,n,mediane,q25,q75
+RMSE zone notee (pts de SOH),1320,2.23,1.1,4.08
+APE sur n@70 (%),1284,9.78,4.61,18.02
+"  APE n@70, structure = arrhenius",624,7.53,3.65,14.65
+"  APE n@70, structure = charniere",535,12.44,6.39,22.26
+"  APE n@70, structure = quadratique",125,10.32,4.13,16.75
+"  APE n@70, cellules arretees > 70 %",411,9.62,4.82,17.75
+"  APE n@70, cellules descendues sous 70 %",873,9.94,4.5,18.35

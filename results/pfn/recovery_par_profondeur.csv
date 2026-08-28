@@ -1,0 +1,6 @@
+strate,n_labs,corr_b,corr_SOH_k,corr_g,corr_tau_frac,corr_perte_15,err_SOH_k_med
+0 cellule(s) sous SOH_k,1,,,,,,9.05
+1 cellule(s) sous SOH_k,2,,,,,,0.15
+2 cellule(s) sous SOH_k,12,1.0,0.688,0.976,0.949,0.978,0.23
+3 cellule(s) sous SOH_k,45,1.0,0.904,0.753,0.952,0.769,0.14
+4 cellule(s) sous SOH_k ou plus,190,1.0,0.949,0.893,0.948,0.902,0.16

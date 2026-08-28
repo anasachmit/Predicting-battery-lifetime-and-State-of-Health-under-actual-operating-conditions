@@ -1,0 +1,22 @@
+{
+ "s0": 102.47224999999999,
+ "soh_k": 80.37542202458546,
+ "c": 119.1899318039513,
+ "beta": 0.20000000000000157,
+ "w_b": [
+  1.122008994618231,
+  -1.381201957566034,
+  0.0
+ ],
+ "r2_b": 0.46567233719251044,
+ "audit": {
+  "trajectoires finies": true,
+  "SOH dans (0, 120]": true,
+  "SOH <= 103 %": true,
+  "SOH monotone decroissante": true,
+  "n@70 decroit avec T": true,
+  "n@70 decroit avec C": true,
+  "n@70 defini partout": true,
+  "aucun knee avant 30 cycles": true
+ }
+}

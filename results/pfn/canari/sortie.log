@@ -1,0 +1,20 @@
+parametres : 3,295,751 | pas vises : 671 | batch 64 | n_ctx 32 | 16 threads
+pas    150 |    9,600 labos | perte 0.1001 | valid 0.0492 | ecart calib train 0.0908 valid 0.0777 (derive -0.0131) | 35 lab/s
+pas    300 |   19,200 labos | perte 0.0497 | valid 0.0317 | ecart calib train 0.0727 valid 0.0658 (derive -0.0069) | 36 lab/s
+pas    450 |   28,800 labos | perte 0.0343 | valid 0.0279 | ecart calib train 0.0449 valid 0.0634 (derive +0.0185) | 36 lab/s
+pas    600 |   38,400 labos | perte 0.0271 | valid 0.0255 | ecart calib train 0.0397 valid 0.0272 (derive -0.0125) | 36 lab/s
+
+=== F.3 FINAL ===
+  n                        353
+  ape_globale              20.56
+  ape_arrhenius            21.79
+  ape_charniere            20.07
+  ecart                    -1.72
+  rmse_zone_notee          1.68
+  seuil_F3                 15.05
+  borne_charniere          15.81
+  gain_vs_borne            -4.26
+  part_ecart_recuperee     -1.869
+  F3_atteint               False
+
+checkpoint : C:\Users\anasa\Desktop\batterylife_health\results_canari\pfn\entrainement\checkpoint.pt

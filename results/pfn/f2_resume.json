@@ -1,0 +1,41 @@
+{
+  "pfn": {
+    "ape_par_fold": {
+      "102Ah_25degC_1C_cell3": 61.99,
+      "102Ah_35degC_1C_cell1": 8.11,
+      "102Ah_45degC_0p5C_cell3": 31.3,
+      "102Ah_55degC_1C_cell3": 50.68
+    },
+    "ape_mediane": 40.99,
+    "ape_pire": 61.99,
+    "rmse_mediane": 2.38,
+    "rmse_pire": 4.64,
+    "folds_gagnes_ape": 2
+  },
+  "v3": {
+    "ape_par_fold": {
+      "102Ah_25degC_1C_cell3": 11.51,
+      "102Ah_35degC_1C_cell1": 27.99,
+      "102Ah_45degC_0p5C_cell3": 7.43,
+      "102Ah_55degC_1C_cell3": 65.54
+    },
+    "ape_mediane": 19.75,
+    "ape_pire": 65.54,
+    "rmse_mediane": 4.0,
+    "rmse_pire": 12.4,
+    "folds_gagnes_ape": 1
+  },
+  "baseline": {
+    "ape_par_fold": {
+      "102Ah_25degC_1C_cell3": 124.93,
+      "102Ah_35degC_1C_cell1": 9.87,
+      "102Ah_45degC_0p5C_cell3": 7.03,
+      "102Ah_55degC_1C_cell3": 115.86
+    },
+    "ape_mediane": 62.87,
+    "ape_pire": 124.93,
+    "rmse_mediane": 3.73,
+    "rmse_pire": 7.2,
+    "folds_gagnes_ape": 1
+  }
+}

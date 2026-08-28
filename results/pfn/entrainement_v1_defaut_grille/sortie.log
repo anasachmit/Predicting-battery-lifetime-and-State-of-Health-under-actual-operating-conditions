@@ -1,0 +1,12 @@
+parametres : 3,295,751 | pas vises : 6,250 | batch 64 | n_ctx 32 | 16 threads
+pas    200 |   12,800 labos | perte 0.0729 | valid 0.0275 | ecart calib train 0.0422 valid 0.0362 (derive -0.0060) | 33 lab/s
+pas    400 |   25,600 labos | perte 0.0287 | valid 0.0236 | ecart calib train 0.0198 valid 0.0325 (derive +0.0127) | 35 lab/s
+pas    600 |   38,400 labos | perte 0.0255 | valid 0.0235 | ecart calib train 0.0519 valid 0.0471 (derive -0.0048) | 35 lab/s
+pas    800 |   51,200 labos | perte 0.0242 | valid 0.0218 | ecart calib train 0.0346 valid 0.0374 (derive +0.0028) | 35 lab/s
+pas   1000 |   64,000 labos | perte 0.0226 | valid 0.0217 | ecart calib train 0.0306 valid 0.0205 (derive -0.0101) | 36 lab/s
+pas   1200 |   76,800 labos | perte 0.0231 | valid 0.0213 | ecart calib train 0.0538 valid 0.0616 (derive +0.0078) | 36 lab/s
+pas   1400 |   89,600 labos | perte 0.0223 | valid 0.0207 | ecart calib train 0.0202 valid 0.0268 (derive +0.0066) | 36 lab/s
+  [F.3 @ 100,000 labos] arrhenius 91.48 % | charniere 130.76 % | seuil 15.05 % | atteint : False
+pas   1600 |  102,400 labos | perte 0.0211 | valid 0.0206 | ecart calib train 0.0243 valid 0.0142 (derive -0.0101) | 36 lab/s
+pas   1800 |  115,200 labos | perte 0.0211 | valid 0.0205 | ecart calib train 0.0145 valid 0.0288 (derive +0.0143) | 36 lab/s
+pas   2000 |  128,000 labos | perte 0.0201 | valid 0.0182 | ecart calib train 0.0218 valid 0.0339 (derive +0.0121) | 36 lab/s
